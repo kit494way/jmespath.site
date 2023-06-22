@@ -17,7 +17,7 @@ function doDemo(event, fun) {
     query.focus()
     const result = demo.getElementsByClassName("result").item(0)
     if (active && !result.innerHTML.trim()) {
-        fun({ currentTarget: query })
+        fun(query)
     }
 }
 

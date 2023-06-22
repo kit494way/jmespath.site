@@ -6,6 +6,12 @@ theme = 'jmespath'
 disableKinds = ["section", "taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
+[module]
+[[module.mounts]]
+source = 'content'
+target = 'content'
+excludeFiles = ['wiki/_Sidebar.md']
+
 [_build]
 publishResources = false
 

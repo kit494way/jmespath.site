@@ -35,13 +35,13 @@ Clone this repo, and the `jmespath.spec.git` and `jmespath.spec.wiki.git` repos 
 ```bash
 git clone git@github.com:jmespath-community/jmespath.site.git
 cd jmespath.site
-git clone --depth 1 https://github.com/jmespath-community/jmespath.spec.git content/spec
+git clone --depth 1 https://github.com/jmespath-community/jmespath.spec.git spec
 git clone --depth 1 https://github.com/jmespath-community/jmespath.spec.wiki.git content/wiki
 ```
 
 Download the JMESPath CLI:
 ```bash
-curl -L https://github.com/jmespath/jp/releases/download/0.2.1/jp-linux-amd64 --output jp
+curl -L https://github.com/jmespath-community/jp/releases/download/v1.1.0/jp-linux-amd64 --output jp
 chmod +x jp
 ```
 
